@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: "Libre Franklin", sans-serif;
+    margin: 10;
+    font-size: small;
+    font-weight: 100;
+    text-align: justify;
+}
+h2{
+    animation-name: animacion;
+    animation-duration: 5s;
+}
+
+@keyframes animacion{
+        from{transform: translateX(200px);}
+        to{transform: translateX(0);}
+    }
+
+h1 {
+    transition: transform 0.5s ease;
+    font-weight: 1000;
+    font-size: xxx-large;
+  }
+  
+  h1:hover {
+    transform: translateX(100px);
+  }
+  
+main div {
+     width: 80%;
+    }
+    
+    div img, 
+    video {width: 100%;}
+  header,
+
+main {
+    padding: 0 8.33vw; width: 100%;
+    display: flex;
+    justify-content: space-between;flex-wrap: wrap;
+    align-content: space-around;
+    height: 100vh;
+}
+header {
+    height: 45.30vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+section { 
+    width: 100%;
+    display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   align-content: space-around;
+   height: 100vh;
+
+}
+
+main div {
+    width: 45.83%;
+
+}
+
+video {width: 100%;}
+
+
+h3{
+    text-decoration:none;
+    text-align: center;
+    font-weight: 100;
+    color:white;
+    background-color: black;
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    margin: auto;
+}
+h3:hover{
+    background-color:  grey;
+    color: black;
+}
+footer{
+    width: 1425px;
+    height: 100px;
+    padding: 10px;
+    display: block;
+    align-content: center;
+
+    background-image: url(../imagenes/fondo.png) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+h4{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size:  medium;
+}
